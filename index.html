@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>PORTFOLIO</title>
+    <link rel="shortcut icon" href="/portfolio/images/Screenshot 2025-05-30 at 3.39.21 PM.png" type="image/x-icon">
+    <link rel="stylesheet" href="intex.css">
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+    <link href='https://cdn.boxicons.com/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>
+    <script src="intex.js"></script>
+   <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "5Lfd56C9rBJfAqmD-",
+      });
+   })();
+</script>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="nav-content1">
+                <a href="">Anshin</a>
+            </div>
+
+            <div class="nav-content2">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skill">Skill</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+        <div id="home">
+            <div class="img"></div>
+            <div class="home-discription"><h1>Hello,Its Me</h1><h2 class="home-heading">Anshin Sadath A T</h2>
+                <div id="frontent-color"><h1>And I'm a <h1 id="frontent-developer">Frontend Developer</h1></h1></div>
+            I’m a Web Designer.expertise is to create and website design,Frontend design , and many more.....
+            <div class="icons">
+                <a href="https://www.instagram.com/anshin_sadath/" class="insta"><i class='bxl  bx-instagram'  ></i> </a>
+                <a href="https://www.linkedin.com/in/anshinsadath" class="insta"><i class='bxl  bx-linkedin-square'  ></i> </a>
+                <a href="" class="insta"><i class='bxl  bx-github' ></i> </a>
+
+
+
+
+            </div>
+            </div>
+        </div>
+
+
+
+
+        <div id="about">
+        <h2 class="about-heading">About Me</h2>
+        <p class="about-discription">I’m deeply interested in building AI-powered tools that bridge the gap between user needs and technical 
+            possibilities. My recent project, AI SaaS Insight Advisor for Early Startups, focuses on extracting real user pain points 
+            from Reddit and YouTube using large language models to help startup founders shape better products. I enjoy working on end-to-end 
+            solutions—from data extraction and model integration to user experience—always aiming to create systems that are both intelligent and
+             practical.</p>
+    </div>
+    <div id="skill">
+        <h2 class="skills-heading">Skills</h2>
+        <div class="skills-content"><div class="skill-1"><h3>HTML</h3>
+            <p class="para">HTML, short for Hypertext Markup Language, is the standard language used to create web
+               pages. It uses tags to structure the content and layout of a webpage. These tags define
+               elements such as headings, paragraphs, images, links, and more. HTML is essential for building
+               the basic structure of a website.</p></div>
+            <div class="skill-1"><h3>CSS</h3><p class="para">CSS, or Cascading Style Sheets, styles the appearance of HTML document. It defines colors,
+                fonts, layout, and more, enhancing webpage aesthetics and user experience. CSS separates
+                content from presentation, allowing for consistent and responsive design across different
+                devices and screen sizes.</p></div>
+            <div class="skill-1 skill-3"><h3>JAVASCRIPT</h3><p id="javascript" class="para">JavaScript (JS) is a versatile programming language primarily used for adding interactivity to
+            web pages. It enables dynamic behavior like animations, user input validation, and updating
+            content without reloading the page. JS works alongside HTML and CSS, making web pages
+            more interactive and responsive for users.</p></div></div>
+    </div>
+    <div id="contact">
+        <div class="contact-div">
+        <h2 class="contact-heading">Get in Touch</h2>
+        <div class="contact-content">
+        <input type="text" placeholder="Full Name" class="inputs" id="name">
+        <input type="email" placeholder="Email" class="inputs" id="email">
+        <textarea placeholder="Message" class="inputs" id="message"></textarea>
+        <button id="submit" onclick="sendmail()">Send Message</button>
+    </div>
+    </div>
+    </div>
+</body>
+</html>
